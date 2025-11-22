@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header>
+            <div class="header-outer">
+                <div class="container">
+                    <div class="header-inner">
+                        <a href="./index.html" class="logo">
+                            <img src="../assets/img/header/logo.svg" alt="StackBuild">
+                        </a>
+
+                        <div class="header-right">
+                            <button class="btn btn-transparent">+ Add Property</button>
+                            <button class="btn btn-transparent whatsApp"><span class="icon-whatsapp-black"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="content-wrapper">
+            <!-- city selection section -->
+            <section class="city-select-sec">
+                <div class="container">
+                    <p>Amet consectetur adipisicing</p>
+                    <h2><span>Find Your</span> Perfect Place.</h2>
+                    <div class="city-select-inner">
+                        <select id="citySelect" class="form-select">
+                            <option value="N/A">Select City</option>
+                        </select>
+                        <button class="btn btn-orange btn-circle search-btn">
+                            <img src="../assets/img/home/select-city/search-icon.svg" alt="">Search
+                        </button>
+                    </div>
+
+                    <!-- City Select Modal -->
+                    <div class="modal fade" id="cityModal" tabindex="-1" aria-hidden="true" class="citySelectModel">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content city-modal">
+                                <div class="modal-header border-0">
+                                    <h5 class="modal-title">Select a city</h5>
+
+                                    <!-- Search Bar -->
+                                    <div class="input-group">
+                                        <input type="text" class="form-control city-search"
+                                            placeholder="Search for a city">
+                                        <span class="input-group-text">
+                                            <img src="../assets/img/home/select-city/search-icon.svg" alt="">
+                                        </span>
+                                    </div>
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h6 class="text-muted mb-3">POPULAR CITIES</h6>
+
+                                    <!-- City Grid -->
+                                    <div class="city-grid">
+                                        <div class="city-item">Delhi NCR</div>
+                                        <div class="city-item">Bangalore</div>
+                                        <div class="city-item">Hyderabad</div>
+                                        <div class="city-item">Mumbai</div>
+                                        <div class="city-item">Pune</div>
+                                        <div class="city-item">Delhi</div>
+                                        <div class="city-item">Gurgaon</div>
+                                        <div class="city-item">Noida</div>
+                                        <div class="city-item">Ahmedabad</div>
+                                        <div class="city-item">Chennai</div>
+                                        <div class="city-item">Kolkata</div>
+                                        <div class="city-item">Lucknow</div>
+                                        <div class="city-item">Jaipur</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- city selection section -->
+
+            <!-- why choose section -->
+            <section class="why-choose-sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <h2>Why Choose Exio</h2>
+                            <div class="why-choose-inn">
+                                <div class="choose-active-sec">
+                                    <h3>Medium length headline</h3>
+                                    <p>Our team of seasoned designers brings years of experience across various
+                                        industries.</p>
+                                </div>
+                                <div class="choose-active-sec">
+                                    <h3>Medium length headline</h3>
+                                    <p>Our team of seasoned designers brings years of experience across various
+                                        industries.</p>
+                                </div>
+                                <div class="choose-active-sec">
+                                    <h3>Medium length headline</h3>
+                                    <p>Our team of seasoned designers brings years of experience across various
+                                        industries.</p>
+                                </div>
+                            </div>
+                            <a href="./about-us.html" class="btn btn-orange">Read More</a>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <figure>
+                                <img src="../assets/img/home/why-choose/why-choose.png" alt="Why Choose Exio">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- why choose section -->
+
+            <!-- best property section -->
+            <section class="best-property-sec">
+                <div class="container">
+                    <h2>Best Property in Ahmedabad</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#" class="best-property-block">
+                                <figure>
+                                    <img src="../assets/img/home/best-property/property1.jpg" alt="">
+                                </figure>
+                                <div class="best-propert-detail">
+                                    <h3>2 BHK House</h3>
+                                    <p>Nr. Iscon Circle, Ahmedabad</p>
+                                    <h4 class="price">19,000</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#" class="best-property-block">
+                                <figure>
+                                    <img src="../assets/img/home/best-property/property2.jpg" alt="">
+                                </figure>
+                                <div class="best-propert-detail">
+                                    <h3>2 BHK House</h3>
+                                    <p>Nr. Iscon Circle, Ahmedabad</p>
+                                    <h4 class="price">19,000</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#" class="best-property-block">
+                                <figure>
+                                    <img src="../assets/img/home/best-property/property3.jpg" alt="">
+                                </figure>
+                                <div class="best-propert-detail">
+                                    <h3>2 BHK House</h3>
+                                    <p>Nr. Iscon Circle, Ahmedabad</p>
+                                    <h4 class="price">19,000</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#" class="best-property-block">
+                                <figure>
+                                    <img src="../assets/img/home/best-property/property1.jpg" alt="">
+                                </figure>
+                                <div class="best-propert-detail">
+                                    <h3>2 BHK House</h3>
+                                    <p>Nr. Iscon Circle, Ahmedabad</p>
+                                    <h4 class="price">19,000</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#" class="best-property-block">
+                                <figure>
+                                    <img src="../assets/img/home/best-property/property2.jpg" alt="">
+                                </figure>
+                                <div class="best-propert-detail">
+                                    <h3>2 BHK House</h3>
+                                    <p>Nr. Iscon Circle, Ahmedabad</p>
+                                    <h4 class="price">19,000</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <a href="#" class="best-property-block">
+                                <figure>
+                                    <img src="../assets/img/home/best-property/property3.jpg" alt="">
+                                </figure>
+                                <div class="best-propert-detail">
+                                    <h3>2 BHK House</h3>
+                                    <p>Nr. Iscon Circle, Ahmedabad</p>
+                                    <h4 class="price">19,000</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- best property section -->
+
+            <!-- testimonial section -->
+            <section class="testimonial-sec">
+                <div class="container">
+                    <h2>Testimonial</h2>
+                    <div class="testiminial-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testiminial-slide">
+                                    <div class="testim-top">
+                                        <div class="star-rating">
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                        </div>
+                                        <div class="testimonial-top-right">
+                                            <span class="icon-thumbs-up-circle"></span>
+                                            Testimonial
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-para">
+                                        <p>Dude, your stuff is the bomb! House rent is the real deal! I STRONGLY recommend house rent to EVERYONE interested in running a successful online business!</p>
+                                    </div>
+                                    <div class="testim-media">
+                                        <figure>
+                                            <img src="../assets/img/home/testimonial/testimonial-1.png" alt="">
+                                        </figure>
+                                        <h3>Lana Bernier</h3>
+                                        <h4>Senior Paradigm Strategist</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testiminial-slide">
+                                    <div class="testim-top">
+                                        <div class="star-rating">
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                        </div>
+                                        <div class="testimonial-top-right">
+                                            <span class="icon-thumbs-up-circle"></span>
+                                            Testimonial
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-para">
+                                        <p>"I like Infinity Estate more and more each day because it makes my life a lot easier. We can't understand how we've been living without Infinity Estate.”</p>
+                                    </div>
+                                    <div class="testim-media">
+                                        <figure>
+                                            <img src="../assets/img/home/testimonial/testimonial-2.png" alt="">
+                                        </figure>
+                                        <h3>Mrs. Van Hartmann</h3>
+                                        <h4>Legacy Usability Manager</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testiminial-slide">
+                                    <div class="testim-top">
+                                        <div class="star-rating">
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                        </div>
+                                        <div class="testimonial-top-right">
+                                            <span class="icon-thumbs-up-circle"></span>
+                                            Testimonial
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-para">
+                                        <p>You've saved our business! Infinity Estate has got everything I need. We were treated like royalty. It's really wonderful.</p>
+                                    </div>
+                                    <div class="testim-media">
+                                        <figure>
+                                            <img src="../assets/img/home/testimonial/testimonial-3.png" alt="">
+                                        </figure>
+                                        <h3>Philip Deckow</h3>
+                                        <h4>District Assurance Officer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testiminial-slide">
+                                    <div class="testim-top">
+                                        <div class="star-rating">
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                        </div>
+                                        <div class="testimonial-top-right">
+                                            <span class="icon-thumbs-up-circle"></span>
+                                            Testimonial
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-para">
+                                        <p>Dude, your stuff is the bomb! House rent is the real deal! I STRONGLY recommend house rent to EVERYONE interested in running a successful online business!</p>
+                                    </div>
+                                    <div class="testim-media">
+                                        <figure>
+                                            <img src="../assets/img/home/testimonial/testimonial-1.png" alt="">
+                                        </figure>
+                                        <h3>Lana Bernier</h3>
+                                        <h4>Senior Paradigm Strategist</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testiminial-slide">
+                                    <div class="testim-top">
+                                        <div class="star-rating">
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                        </div>
+                                        <div class="testimonial-top-right">
+                                            <span class="icon-thumbs-up-circle"></span>
+                                            Testimonial
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-para">
+                                        <p>"I like Infinity Estate more and more each day because it makes my life a lot easier. We can't understand how we've been living without Infinity Estate.”</p>
+                                    </div>
+                                    <div class="testim-media">
+                                        <figure>
+                                            <img src="../assets/img/home/testimonial/testimonial-2.png" alt="">
+                                        </figure>
+                                        <h3>Mrs. Van Hartmann</h3>
+                                        <h4>Legacy Usability Manager</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testiminial-slide">
+                                    <div class="testim-top">
+                                        <div class="star-rating">
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                        </div>
+                                        <div class="testimonial-top-right">
+                                            <span class="icon-thumbs-up-circle"></span>
+                                            Testimonial
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-para">
+                                        <p>You've saved our business! Infinity Estate has got everything I need. We were treated like royalty. It's really wonderful.</p>
+                                    </div>
+                                    <div class="testim-media">
+                                        <figure>
+                                            <img src="../assets/img/home/testimonial/testimonial-3.png" alt="">
+                                        </figure>
+                                        <h3>Philip Deckow</h3>
+                                        <h4>District Assurance Officer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- testimonial section -->
+
+            <!-- faq section -->
+             <section class="faq-sec">
+                <div class="container">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"  aria-expanded="true" aria-controls="collapseOne">Which Indian cities are the best for commercial real estate investment?</button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                There are 5 cities which are the best for investment: Mumbai - the financial capital, Bangalore - the silicon nvalley of India, Delhi NCR - the business hub, Hyderabad - rising star, and Ahmedabad - the business hub
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How to buy new properties in Ahmedabad?</button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Does Exio bot work for both residential and commercial?</button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+             </section>
+            <!-- faq section -->
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-8">
+                        <div class="footer-left">
+                            <a href="./index.html" class="footer-logo">
+                                <img src="../assets/img/footer/EXIO.svg" alt="EXIO">
+                            </a>
+                            <p>EXIO is a forward-thinking real estate firm dedicated to transforming spaces into dream
+                                homes. With a commitment to quality and innovation, we provide personalized services to
+                                help you find the perfect property that suits your lifestyle.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="footer-menu">
+                                    <h4>Quick Links</h4>
+                                    <ul>
+                                        <li><a href="./index.html">Home</a></li>
+                                        <li><a href="./about-us.html">About Us</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms of Service</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="footer-menu">
+                                    <h4>Quick Links</h4>
+                                    <ul>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Logout</a></li>
+                                    </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; Exio - All rights reserved</p>
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="#" target="_blank"><span class="icon-facebook"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="icon-twitter"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="icon-instagram"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="icon-linkedIn"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/general.js"></script>
+</body>
+
+</html>
