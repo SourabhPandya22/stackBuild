@@ -26,7 +26,7 @@
         font-size: 38px;
     }
     .btn{
-        padding: 8px 12px;
+        padding: 18px 12px;
         font-size: 16px;
     } 
     .best-property-sec{
@@ -119,8 +119,8 @@
         padding: 12px 18px;
     }
     .btn{
-        padding: 5px 16px;
-        font-size: 12px;
+        padding: 15px 16px;
+        font-size: 16px;
         line-height: 150%;
     }
     .city-select-sec {
@@ -277,8 +277,8 @@
         padding: 28px 0 33px;
     }
     .footer-logo{
-        width: 74px;
-        height: 23px;
+        width: 225px;
+        height: 26px;
         margin: 0 0 20px;
     }
 
@@ -332,6 +332,16 @@
     .property-detail-info .btn{
         width: 100%;
     }
+    .form-control{
+        padding: 12px 15px;
+    }
+    .contact-form .btn{
+        margin-top: 15px;
+    }
+
+    .success-property-added p{
+        margin: 0 0 65px;
+    }
 }
 
 @media screen and (max-width: 575px){
@@ -342,5 +352,15 @@
     }
     .city-select-sec h2{
         font-size: 24px;
+    }
+    .header-right .btn {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .header-right .btn {
+        font-size: 12px;
     }
 }

@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-chat:before {
+  content: "\e908";
+}
+.icon-mail:before {
+  content: "\e909";
+}
+.icon-property:before {
+  content: "\e90a";
+}
+.icon-map:before {
+  content: "\e907";
+}
 .icon-thumbs-up-circle:before {
   content: "\e906";
 }
@@ -45,7 +57,4 @@
 }
 .icon-whatsapp-black:before {
   content: "\e900";
-}
-.icon-map:before {
-  content: "\e907";
 }

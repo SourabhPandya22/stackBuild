@@ -185,6 +185,19 @@ table {
 .btn-circle{
     border-radius: 25px;
 }
+.btn-black{
+    /* font-family: Montserrat; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--black-color2);
+}
+.btn-black:hover{
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
 a{
     text-decoration: none;
     transition: all 0.3s ease-in-out;
@@ -770,9 +783,12 @@ footer p{
 }
 .footer-logo{
     display: block;
-    width: 117px;
+    width: 315px;
     height: 36px;
     margin: 0 0 24px;
+}
+.footer-logo img{
+    object-fit: contain;
 }
 .footer-menu h4{
     font-weight: 700;
@@ -1144,4 +1160,259 @@ Gallery Grid CSS
 #cityModal .btn-close{
     background-color: transparent;
     position: static;
+}
+
+
+/* Contact Page */
+.contact-sec{
+    padding: 45px 0 105px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    max-width: 376px;
+    color: var(--black-color);
+}
+.contact-details h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    margin: 0 0 12px;
+}
+.contact-details a{
+    margin: 0 0 30px;
+    color: inherit;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 25px;
+    max-width: max-content;
+}
+.contact-details a span{
+    position: relative;
+    top: 5px;
+}
+.contact-details a:hover{
+    color: var(--orange-color);
+}
+.form-group{
+    margin: 0 0 18px;
+}
+.form-control{
+    border: 1px solid #D8D8D8;
+    border-radius: 8px;
+    /* font-family: Montserrat; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 20px;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: var(--black-color);
+}
+.form-control.error-field{
+    border-color: #FF3333;
+}
+.error{
+    display: block;
+    font-size: 14px;
+    color: #FF3333;
+}
+.contact-form label{
+    display: block;
+}
+textarea{
+    height: 146px;
+    resize: none;
+}
+.contact-form label{
+    height: 0;
+    overflow: hidden;
+}
+.contact-form .btn{
+    margin-top: 40px;
+    width: 100%;
+}
+.map-outer{
+    position: relative;
+    padding-bottom: 51%;
+    filter: grayscale(1);
+}
+.map-outer iframe{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* Add Property Page CSS */
+/* Upload Section */
+.add-property-sec{
+    padding: 50px 0;
+}
+.property-add-form > .row{
+    row-gap: 30px;
+}
+.property-add-form
+.upload-box {
+    width: 100%;
+    height: 240px;
+    border: 2px dashed var(--orange-color);
+    border-radius: 14px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    text-align: center;
+    padding: 15px;
+    transition: 0.3s;   
+}
+.upload-box::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/icons/icon-upload.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px 30px;
+}
+
+.upload-box:hover {
+    background: #fff7ef;
+}
+
+.upload-box i {
+    font-size: 32px;
+    color: var(--orange-color);
+    margin-bottom: 5px;
+}
+
+.upload-box p {
+    color: var(--orange-color);
+    font-weight: 600;
+}
+
+.upload-box input {
+    display: none;
+}
+
+.preview-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.preview-item {
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background: #eee;
+}
+
+.preview-item img,
+.preview-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.remove-btn {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.otp-wrapper {
+    width: 100%;
+}
+
+.otp-box {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    border: 1px solid #888888;
+    border-radius: 14px;
+    cursor: text;
+    gap: 16px;
+}
+
+.otp-box span {
+    width: 18px;
+    height: 2px;
+    background: #999;
+    display: block;
+}
+
+/* When digit is entered */
+.otp-box span.filled {
+    height: auto;
+    font-size: 20px;
+    border-bottom: 2px solid #999;
+    background: none;
+    line-height: 20px;
+    display: inline-block;
+    width: 18px;
+    text-align: center;
+}
+
+/* invisible input */
+#otpRealInput {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+}
+#verifyBtn{
+    padding-inline: 20px;
+    height: 100%;
+}
+/* Add Property Page CSS */
+
+
+
+.success-property-added{
+    padding: 82px 0 112px;
+    text-align: center;
+}
+.success-property-added figure{
+    height: 121px;
+    width: 121px;
+    margin: 0 auto 36px;
+}
+.success-property-added figure img{
+    object-fit: contain;
+}
+.success-property-added h1{
+    /* font-family: Poppins; */
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: var(--orange-color);
+    margin: 0 0 22px;
+}
+.success-property-added p{
+    color: #B6B6B6;
+    margin: 0 0 45px;
+}
+.success-property-added a{
+    text-decoration: underline;
+    font-size: 22px;
 }
