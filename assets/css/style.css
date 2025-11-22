@@ -348,7 +348,7 @@ select::-ms-expand {
     color: var(--orange-color);
 }
 .input-group{
-    background-color: #F6F6F6;
+    background-color: #F6F6F6; 
     border-radius: 12px;
     max-width: 477px;
 }
