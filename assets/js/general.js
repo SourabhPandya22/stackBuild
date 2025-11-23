@@ -26,7 +26,7 @@ $(document).ready(function () {
         $('.modal-backdrop').removeClass('city-backdrop');
     });
 
-    $(document).on("keydown", "#phone", function (e) {
+    $(document).on("keydown", "#phone, .otp-input", function (e) {
         // Allow control keys
         if ($.inArray(e.keyCode, [8, 9, 27, 13, 46]) !== -1 ||
             (e.keyCode >= 35 && e.keyCode <= 40)) {
